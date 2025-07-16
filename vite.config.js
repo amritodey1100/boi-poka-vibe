@@ -1,6 +1,5 @@
 import { defineConfig } from "vite";
-import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  plugins: [tailwindcss()],
+  // No plugins needed for Tailwind CSS, use postcss.config.cjs
 });
